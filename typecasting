@@ -1,0 +1,19 @@
+public class TypeCasting {
+    public static void main(String[] args) {
+
+        int i = 25;
+        double d = i;
+
+        System.out.println("Widening:");
+        System.out.println("int value = " + i);
+        System.out.println("double value = " + d);
+
+     
+        double x = 9.8;
+        int y = (int) x;
+
+        System.out.println("\nNarrowing:");
+        System.out.println("double value = " + x);
+        System.out.println("int value = " + y);
+    }
+}
